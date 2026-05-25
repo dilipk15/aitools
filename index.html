@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI Automation Tools — Curated Directory</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <meta name="description" content="A hand-curated directory of the best AI tools that save small businesses time. Updated monthly, read by thousands of operators." />
+
+  <!-- Open Graph / social preview -->
+  <meta property="og:title" content="AI Automation Tools — Curated Directory" />
+  <meta property="og:description" content="The best AI tools that actually save SMBs time. Hand-curated, updated monthly." />
+  <meta property="og:type" content="website" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== NAV ===== -->
+  <header class="nav">
+    <div class="container nav__inner">
+      <a href="#top" class="nav__brand" id="navBrand">AI Automation Tools</a>
+      <nav class="nav__links">
+        <a href="#featured">Featured</a>
+        <a href="#tools">Best tools</a>
+        <a href="#feature">Get listed</a>
+        <a href="#subscribe" class="nav__cta">Subscribe</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="top">
+    <canvas id="bgCanvas" aria-hidden="true"></canvas>
+    <div class="container">
+      <span class="hero__eyebrow">Curated · Updated monthly</span>
+      <h1 class="hero__title" id="heroTitle"></h1>
+      <p class="hero__tagline" id="heroTagline"></p>
+      <div class="hero__cta">
+        <a href="#tools" class="btn btn--primary">Browse the tools</a>
+        <a href="#feature" class="btn btn--ghost">Get your tool featured</a>
+      </div>
+      <div class="hero__stats" id="heroStats"></div>
+    </div>
+  </section>
+
+  <!-- ===== FEATURED ===== -->
+  <section class="section" id="featured">
+    <div class="container">
+      <div class="section__head">
+        <h2>Featured AI Tools</h2>
+        <p>Premium spotlight — top of the directory plus a monthly Medium feature.</p>
+      </div>
+      <div class="grid grid--featured" id="featuredGrid"></div>
+    </div>
+  </section>
+
+  <!-- ===== ALL TOOLS ===== -->
+  <section class="section section--alt" id="tools">
+    <div class="container">
+      <div class="section__head">
+        <h2>Best Useful AI Tools</h2>
+        <p>The full directory — every tool hand-checked. Search or filter by category.</p>
+      </div>
+      <div class="controls">
+        <input type="search" id="searchInput" class="controls__search" placeholder="Search tools…" aria-label="Search tools" />
+        <div class="controls__filters" id="categoryFilters"></div>
+      </div>
+      <div class="grid" id="toolsGrid"></div>
+      <p class="grid__empty" id="emptyState" hidden>No tools match your search.</p>
+      <div class="list-cta">
+        <span>Want your tool in this list?</span>
+        <a class="btn btn--ghost" href="#" id="listedCtaBtn" target="_blank" rel="noopener">Get Listed — $349/yr →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== GET FEATURED / PRICING ===== -->
+  <section class="section" id="feature">
+    <div class="container">
+      <div class="section__head">
+        <h2>Get your tool in front of our readers</h2>
+        <p>Annual listings — a permanent home plus monthly exposure to thousands of SMB operators.</p>
+      </div>
+      <div class="pricing" id="pricingGrid"></div>
+      <p class="pricing__foot">
+        Not sure which fits? <a href="#" id="pricingFormLink" target="_blank" rel="noopener">Tell us about your tool</a> and we'll send the details.
+      </p>
+    </div>
+  </section>
+
+  <!-- ===== SUBSCRIBE ===== -->
+  <section class="subscribe" id="subscribe">
+    <div class="container subscribe__inner">
+      <div>
+        <h2>Get next month's tools first</h2>
+        <p>Join the newsletter — new AI tools and automation playbooks, straight to your inbox.</p>
+      </div>
+      <a href="#" class="btn btn--primary btn--lg" id="subscribeBtn" target="_blank" rel="noopener">Subscribe free</a>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p class="footer__disclosure">
+        Tools marked <strong>Sponsored</strong> or <strong>Founding Partner</strong> are promotional placements.
+        All other tools are selected independently, based only on usefulness to readers.
+      </p>
+      <p class="footer__meta">
+        All rights reserved · <span id="footerYear"></span>
+      </p>
+    </div>
+  </footer>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
