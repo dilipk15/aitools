@@ -169,7 +169,7 @@ const PRICING = [
     perks: [
       "Top of page, highlighted card + badge",
       "Logo, full description & direct CTA link",
-      "Featured in a monthly Medium article (10–20k readers)",
+      "Featured in a monthly Medium article (~30k readers)",
       "Newsletter mention + permanent backlink"
     ]
   },
