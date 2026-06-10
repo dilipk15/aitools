@@ -160,6 +160,20 @@ const TOOLS = [
  * ------------------------------------------------------------------- */
 const PRICING = [
   {
+    name: "Monthly Spotlight",
+    price: "$99",
+    period: "/ month",
+    highlight: false,
+    note: "No annual commitment",
+    perks: [
+      "Top placement for 30 days",
+      "Logo, full description + direct CTA link",
+      "Featured in the next monthly Medium article (~30k readers)",
+      "Newsletter mention + backlink",
+      "Try us — no long-term commitment"
+    ]
+  },
+  {
     name: "Featured Partner",
     original: "$899",
     price: "$499",
