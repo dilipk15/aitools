@@ -35,7 +35,7 @@ const TOOLS = [
     url: "https://www.beautyplus.com/image-enhancer",
     logo: "https://www.google.com/s2/favicons?domain=beautyplus.com&sz=128",
     tier: "featured",
-    sponsored: true
+    founding: true
   },
   {
     name: "Happy Scribe",
@@ -44,7 +44,7 @@ const TOOLS = [
     url: "https://www.happyscribe.com",
     logo: "https://www.google.com/s2/favicons?domain=happyscribe.com&sz=128",
     tier: "featured",
-    sponsored: true
+    founding: true
   },
   {
     name: "Pollo AI",
