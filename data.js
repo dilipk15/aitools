@@ -29,6 +29,24 @@ const SITE = {
  * ------------------------------------------------------------------- */
 const TOOLS = [
   {
+    name: "BeautyPlus Image Enhancer",
+    tagline: "Upscale photos to 4K/8K/16K with type-aware AI for portraits, old photos, text and products.",
+    category: "Image Editing",
+    url: "https://www.beautyplus.com/image-enhancer",
+    logo: "https://www.google.com/s2/favicons?domain=beautyplus.com&sz=128",
+    tier: "featured",
+    sponsored: true
+  },
+  {
+    name: "Happy Scribe",
+    tagline: "AI transcription, subtitles and translation in 150+ languages, with optional human proofreading.",
+    category: "Transcription",
+    url: "https://www.happyscribe.com",
+    logo: "https://www.google.com/s2/favicons?domain=happyscribe.com&sz=128",
+    tier: "featured",
+    sponsored: true
+  },
+  {
     name: "Pollo AI",
     tagline: "All-in-one AI video generator — text-to-video, image-to-video, and AI avatars.",
     category: "Video",
@@ -149,6 +167,70 @@ const TOOLS = [
     tagline: "Build a complete small-business website with AI in under a minute.",
     category: "Website Builder",
     url: "https://durable.co",
+    logo: "",
+    tier: "free"
+  },
+  {
+    name: "Descript",
+    tagline: "Edit video and podcasts by editing the transcript — with captions and AI voice.",
+    category: "Video",
+    url: "https://www.descript.com",
+    logo: "",
+    tier: "free"
+  },
+  {
+    name: "Sonix",
+    tagline: "Fast transcription and translation in 50+ languages, with an API for automation.",
+    category: "Transcription",
+    url: "https://sonix.ai",
+    logo: "",
+    tier: "free"
+  },
+  {
+    name: "Notta",
+    tagline: "Live meeting transcription and AI summaries for Zoom, Meet and Teams.",
+    category: "Transcription",
+    url: "https://www.notta.ai",
+    logo: "",
+    tier: "free"
+  },
+  {
+    name: "Rev",
+    tagline: "Human-verified transcription and captions at 99%+ accuracy.",
+    category: "Transcription",
+    url: "https://www.rev.com",
+    logo: "",
+    tier: "free"
+  },
+  {
+    name: "Topaz Gigapixel",
+    tagline: "Professional AI photo upscaling up to 16x, rendered on your own computer.",
+    category: "Image Editing",
+    url: "https://www.topazlabs.com/topaz-gigapixel",
+    logo: "",
+    tier: "free"
+  },
+  {
+    name: "Let's Enhance",
+    tagline: "Upscale images to print-ready quality, up to 512 megapixels.",
+    category: "Image Editing",
+    url: "https://letsenhance.io",
+    logo: "",
+    tier: "free"
+  },
+  {
+    name: "Magnific",
+    tagline: "Creative AI upscaler that adds new detail to AI art and renders.",
+    category: "Image Editing",
+    url: "https://www.magnific.com",
+    logo: "",
+    tier: "free"
+  },
+  {
+    name: "Remini",
+    tagline: "Fix blurry faces and restore old photos in seconds from your phone.",
+    category: "Image Editing",
+    url: "https://remini.ai",
     logo: "",
     tier: "free"
   }
