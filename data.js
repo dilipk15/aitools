@@ -243,7 +243,8 @@ const TOOLS = [
 const PRICING = [
   {
     name: "Monthly Spotlight",
-    price: "$99",
+    original: "$99",
+    price: "$29",
     period: "/ month",
     highlight: false,
     note: "No annual commitment",
@@ -257,8 +258,8 @@ const PRICING = [
   },
   {
     name: "Featured Partner",
-    original: "$899",
-    price: "$499",
+    original: "$499",
+    price: "$149",
     period: "/ year",
     highlight: true,
     note: "Founding rate — first 5 partners",
@@ -271,7 +272,8 @@ const PRICING = [
   },
   {
     name: "Listed",
-    price: "$349",
+    original: "$349",
+    price: "$49",
     period: "/ year",
     highlight: false,
     note: "Unlimited slots",
