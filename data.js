@@ -281,20 +281,7 @@ const PRICING = [
       "Standard card in the directory grid",
       "Description + direct link",
       "Permanent backlink (great for your SEO)",
-      "Eligible for editorial article mentions"
-    ]
-  },
-  {
-    name: "Free Editorial",
-    price: "$0",
-    period: "",
-    highlight: false,
-    note: "By curation",
-    perks: [
-      "We add genuinely useful tools for free",
-      "Subject to review — listed only if useful to our readers",
-      "Standard directory listing",
-      "Upgrade to Featured anytime"
+      "One guaranteed mention in a monthly Medium article (~30k readers)"
     ]
   }
 ];
